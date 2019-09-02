@@ -7,7 +7,7 @@ _Make your own blog from medium in a few minutes._
 _Requires [Node.js](https://nodejs.org/en/)_
 
 ```bash
-npx medium-to-own-blog
+npx easyblogmaker
 ```
 
 ## :link: Live Demo
