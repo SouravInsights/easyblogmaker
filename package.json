@@ -1,0 +1,46 @@
+{
+  "name": "@souravinsights/easyblogmaker",
+  "version": "0.1.0",
+  "description": "Blogging Made Easy",
+  "bin": {
+    "medium-to-own-blog": "bin/easyblogmaker.js",
+    "parse-medium-article": "bin/import-medium-article.js"
+  },
+  "main": "index.js",
+  "files": [
+    "/gatsby-template",
+    "/bin",
+    "/lib"
+  ],
+  "scripts": {
+    "test": "node ./bin/easyblogmaker.js"
+  },
+  "author": "Sourav Kumar Nanda <souravkumarnanda4@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  },
+  "prettier": {
+    "proseWrap": "never",
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "semi": false
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "inquirer": "^6.5.0",
+    "jimp": "^0.6.4",
+    "jsdom": "^15.1.1",
+    "jszip": "^3.2.2",
+    "ora": "^3.4.0",
+    "request": "^2.88.0",
+    "slugify": "^1.3.4",
+    "turndown": "^5.0.3",
+    "xml-js": "^1.6.11"
+  }
+}
